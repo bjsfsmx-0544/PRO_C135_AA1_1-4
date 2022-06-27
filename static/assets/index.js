@@ -31,7 +31,7 @@ $(function () {
             }
         });
     });
-    //Write the code here for AJAX call
+    // Escribir el código para la llamada AJAX aquí 
 
 
 })
