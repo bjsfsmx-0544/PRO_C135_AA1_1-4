@@ -19,7 +19,7 @@ def predict_emotion():
     if not input_text:
         return jsonify({
             "status": "error",
-            "message": "Please enter some text to predict emotion!"
+            "message": "¡Por favor, ingresa algún texto para predecir la emoción!"
         }), 400
     else:
         predicted_emotion, predicted_emotion_img_url = predict(input_text)                         
@@ -31,9 +31,8 @@ def predict_emotion():
             "status": "success"
         }), 200
         
-#Write the code for API here
+# Escribe el código para la API aquí
 
                 
 if __name__ == "__main__":
     app.run(debug=True)
-
